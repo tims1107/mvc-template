@@ -1,0 +1,16 @@
+[
+  {
+    "type": "oracle",
+    "name": "oracle_eleveng",
+    "server": "njrr-scan",
+    "port": 1521,
+    "username": "wh_track",
+    "password": "wh6track",
+    "servicename": "dwprd",
+    "drivertype": "thin",
+    "protocol": "tcp",
+    "uri": "jdbc:oracle:thin:@//njrr-scan:1521/dwprd",
+    "driver": "oracle.jdbc.driver.OracleDriver",
+    "validquery": "select 1 from dual"
+  }
+  ]
